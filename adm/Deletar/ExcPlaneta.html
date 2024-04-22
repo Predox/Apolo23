@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excluir Planetas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@300&display=swap');
+        @font-face{
+            font-family: 'Milk';
+            src: url('/midia/Fonts/LEMONMILK-MediumItalic.otf') format(opentype);
+        }  
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        body{
+            background: #000;
+            overflow: hidden;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1{
+            font-family: 'Milk';
+            color: aliceblue;
+            margin-bottom: 50px;
+            font-size: 3em;
+        }
+
+        .div{
+            border-radius: 30px;
+            background: rgba(255, 255, 255, 0.115);
+            width: 400px;
+            height: auto;
+            padding: 100px 0 100px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            transition: .5s;
+        }
+
+        .div:hover{
+            scale: 1.1;
+            transition: .5s;
+        }
+
+        input{
+            font-family: 'Poppins';
+            border-radius: 10px;
+            border-style: none;
+            height: 30px;
+            margin-bottom: 20px;
+            width: 60%;
+            padding-left: 10px;
+            transition: .5s;
+        }
+        input[type='submit']{
+            font-size: 16px;
+            width: 60%;
+            height: 40px;
+        }
+        input[type='submit']:hover{
+            box-shadow: 0 0 0 0;
+            outline: 0;
+            scale: 1.05;
+            box-shadow: 0 5px 15px rgba(255,255,255,0.5);
+            transition: 0.5s;
+        }
+
+        video{
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            filter: opacity(50%);
+            object-fit: cover;
+        }
+
+        @media (max-width: 600px) {
+            .div{
+                scale: 0.8; 
+                transition: .5s;
+            } 
+        }
+
+    </style>
+</head>
+<body>
+    <style>
+        #voltar{
+            position: absolute;
+            top: 30px;
+            left: 10px;
+            filter: invert();
+        }
+    </style>
+    <a href="/adm.html" id="voltar">
+        <img src="seta-esquerda.png" alt="Voltar" width="70px">
+    </a>
+    <form action="ExcPlaneta.php" method="post">
+        <div class="div">
+            <h1>Planetas</h1>
+            <input type="text" name="Cod" placeholder="Código">
+            <input type="submit" value="Excluir">
+        </div>
+        
+    </form>
+    <video autoplay muted loop="true" src="/midia/FundoLogin.mp4"></video>
+</body>
+</html>

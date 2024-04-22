@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/PaginaInicial.css">
+    <link rel="shortcut icon" href="midia/LogoW.png" type="image/x-icon">
+    <style>
+        #apresentacao{
+            width: auto;
+            height: auto;
+        }
+
+        #apresentacao h1{
+            text-align: center;
+        }
+
+        #apresentacao p{
+            font-family: 'Poppins';
+            color: white;  
+            font-size: 1.5em;
+            margin-top: 2%;
+        }
+
+        .planetas-card {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 80vw;
+            height: auto;
+            padding: 3vh 10vw 3vh 10vw;
+        }
+
+        .planetas-card img{
+            width: 40vw;
+
+        }
+
+        #card-content{
+            color: #fff;
+            font-size: 1.8em;
+            width: 30vw;
+            height: auto;
+            padding: 20px;
+            background: rgba(50, 50, 50, 0.4);
+            border-radius: 20px;
+            font-family: 'Poppins';
+        }
+
+        h3{
+            font-family: 'Milk';
+            margin-bottom: 5px;
+        }
+
+        p{
+            margin-bottom: 20px;
+        }
+    </style>
+    <title>Urano</title>
+</head>
+<body>
+    <div id="header-elem">
+        <a href="PaginaInicial.html">
+            <img src="midia/LogoW.png" alt="Logo" width="35px">
+        </a>
+        <div id="header-elem-dir">
+            <a href="catalogo.html">
+                <img src="midia/mundo.svg" alt="Planetas" width="35px">
+            </a>
+            <a href="fisica.html">
+                <img src="midia/Fisica.svg" alt="fisica" width="35px">
+            </a>
+            <a href="javascript:window.location.replace('index.html')">
+                <img src="midia/LogOut.svg" alt="Sair" width="35px">
+            </a>
+        </div>
+    </div>
+    <div id="apresentacao">
+        <h1>Urano</h1>
+        <p>Urano é um gigante gasoso com uma coloração azul-esverdeada única devido à presença de metano em sua atmosfera. Ele é conhecido por sua inclinação extrema, girando quase de lado em relação ao plano orbital. Urano possui anéis, embora sejam menos visíveis do que os de Saturno, e um conjunto de luas interessantes, como Miranda, com falésias e terreno variado.</p>
+    </div>
+    <div class="planetas-card">
+        <img src="midia/Planetas/urano.png" alt="Mercurio">
+        <div id="card-content">
+            <h3>Nome:</h3><p>Urano</p>
+            <h3>Diametro:</h3><p>51.118 km</p>
+            <h3>Período de rotação:</h3><p>17,2 horas</p>
+            <h3>Período orbital:</h3><p>84 anos terrestres</p>
+            <h3>Distância do Sol:</h3><p>2,9 bilhões de km</p>
+            <h3>Temperatura média:</h3><p>-216°C</p>
+            <h3>Gravidade:</h3><p>8.69 m/s²</p>
+        </div>
+    </div>
+</body>
+</html>

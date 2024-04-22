@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/PaginaInicial.css">
+    <link rel="shortcut icon" href="midia/LogoW.png" type="image/x-icon">
+    <style>
+        #apresentacao{
+            width: auto;
+            height: auto;
+        }
+
+        #apresentacao h1{
+            text-align: center;
+        }
+
+        #apresentacao p{
+            font-family: 'Poppins';
+            color: white;  
+            font-size: 1.5em;
+            margin-top: 2%;
+        }
+
+        .planetas-card {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 80vw;
+            height: auto;
+            padding: 3vh 10vw 3vh 10vw;
+        }
+
+        .planetas-card img{
+            width: 40vw;
+
+        }
+
+        #card-content{
+            color: #fff;
+            font-size: 1.8em;
+            width: 30vw;
+            height: auto;
+            padding: 20px;
+            background: rgba(50, 50, 50, 0.4);
+            border-radius: 20px;
+            font-family: 'Poppins';
+        }
+
+        h3{
+            font-family: 'Milk';
+            margin-bottom: 5px;
+        }
+
+        p{
+            margin-bottom: 20px;
+        }
+    </style>
+    <title>Mercúrio</title>
+</head>
+<body>
+    <div id="header-elem">
+        <a href="PaginaInicial.html">
+            <img src="midia/LogoW.png" alt="Logo" width="35px">
+        </a>
+        <div id="header-elem-dir">
+            <a href="catalogo.html">
+                <img src="midia/mundo.svg" alt="Planetas" width="35px">
+            </a>
+            <a href="fisica.html">
+                <img src="midia/Fisica.svg" alt="fisica" width="35px">
+            </a>
+            <a href="javascript:window.location.replace('index.html')">
+                <img src="midia/LogOut.svg" alt="Sair" width="35px">
+            </a>
+        </div>
+    </div>
+    <div id="apresentacao">
+        <h1>Mercúrio</h1>
+        <p>Mercúrio é o menor e mais interno planeta do Sistema Solar, orbitando o Sol a cada 87,969 dias terrestres. A sua órbita tem a maior excentricidade e o seu eixo apresenta a menor inclinação em relação ao plano da órbita dentre todos os planetas do Sistema Solar. Mercúrio completa três rotações em torno de seu eixo a cada duas órbitas. O periélio da órbita de Mercúrio apresenta uma precessão de 5 600 segundos de arco por século, um fenômeno completamente explicado apenas a partir do século XX pela Teoria da Relatividade Geral formulada por Albert Einstein. A sua aparência é brilhante quando observado da Terra, tendo uma magnitude aparente que varia de −2,6 a 5,7, embora não seja facilmente observado pois sua separação angular do Sol é de apenas 28,3º. Uma vez que Mercúrio normalmente se perde no intenso brilho solar, exceto em eclipses solares, só pode ser observado a olho nu durante o crepúsculo matutino ou vespertino.</p>
+    </div>
+    <div class="planetas-card">
+        <img src="midia/Planetas/mercurio.png" alt="Mercurio">
+        <div id="card-content">
+            <h3>Nome:</h3><p>Mercúrio</p>
+            <h3>Diametro:</h3><p>4.879 km</p>
+            <h3>Período de rotação:</h3><p>58,646 dias</p>
+            <h3>Período orbital:</h3><p>88 dias terrestres</p>
+            <h3>Distância do Sol:</h3><p>57,909,227 km</p>
+            <h3>Temperatura média:</h3><p>varia de -173°C a 427°C</p>
+            <h3>Gravidade:</h3><p>3.7 m/s²</p>
+        </div>
+    </div>
+</body>
+</html>

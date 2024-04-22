@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="119.626mm" height="132.927mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 3505.45 3895.21"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:white;stroke-width:173.67;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2723141939776">
+   <circle class="fil0 str0" cx="1752.73" cy="1881.52" r="292.78"/>
+   <ellipse class="fil0 str0" cx="1752.73" cy="1947.6" rx="797.42" ry="1860.77"/>
+   <ellipse class="fil0 str0" transform="matrix(0.460248 0.764986 -0.751612 0.452202 1752.73 1954.31)" rx="893.2" ry="2121.36"/>
+   <ellipse class="fil0 str0" transform="matrix(-0.440446 0.776556 -0.76298 -0.432746 1752.73 1961.02)" rx="893.2" ry="2121.36"/>
+  </g>
+ </g>
+</svg>
